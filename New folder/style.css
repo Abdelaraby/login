@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+       position: relative;
+    top: 158px;
+    padding: 57px;
+    border-radius: 20px;
+    width: 386px;
+    height: 350px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(140, 95, 160);
+    width: 50%;
+    position: relative;
+    left: 111px;
+    
+}
+.name {
+       display: block;
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    text-align: center;
+}
+.name label {
+    position: relative;
+    left: -21px;
+     padding: 4px;
+   
+    border-radius: 10px;
+    background-color: rgb(4, 245, 245);
+
+}
+.name input[type ="text"]{
+       position: relative;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 9px;
+    width: 270px;
+    outline: none;
+    transform: rotate3d(5);
+}
+.name input[type ="text"]:hover {
+     box-shadow: 0px 4px rgb(6 248 78 / 65%);
+}
+.pass {
+    position: relative;
+    display: block;
+      padding-bottom: 40px;
+    
+}
+.pass input[type ="password"]{
+       position: relative;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 9px;
+    width: 270px;
+    left: -11px;
+  outline: none;
+  
+}
+.pass input[type ="password"]:hover {
+     box-shadow: 0px 4px rgb(6 248 78 / 65%);
+}
+
+
+.pass label {
+    position: relative;
+    left: -27px;
+    top: 30px;
+    top: 1px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(4, 246, 202);
+}
+
+.log a {
+    padding: 7px;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.log a:hover {
+     background-color: rgb(6, 248, 78);
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 2px;
+}
